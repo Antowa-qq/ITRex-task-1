@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6em;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  padding: 10px;
+}
+.currency {
+  width: 800px;
+  margin: 0 auto;
+}
+
+table thead {
+  background-color: #36304a;
+  color: white;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+table th {
+  border: none;
+  padding: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 30px;
+}
+table td {
+  border: none;
+  padding: 20px 30px;
+  font-size: 14px;
+  vertical-align: middle;
+}
